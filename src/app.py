@@ -42,7 +42,7 @@ def create_app():
 
 
     @app.get('/api/v1.0/forth')
-    def third_get():
+    def forth_get():
         data = {
             'name': 'Joakim',
             'age': 24
