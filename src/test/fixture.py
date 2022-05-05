@@ -1,15 +1,15 @@
 """
-Fixture for test
+Fixture for tests
 """
 
 import pytest
 from ..app import create_app
 
 
-@pytest.fixture()
+@pytest.fixture
 def client():
     """
-    Test fixture for API client
+    Test fixture for api client
     :return: yields a test client
     """
     app = create_app()
