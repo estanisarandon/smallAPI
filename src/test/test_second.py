@@ -25,3 +25,4 @@ def test_second_data(client):
     response = client.get('/api/v1.0/second')
     data = json.loads(response.text)
     assert data['name'] == 'Peter'
+    
