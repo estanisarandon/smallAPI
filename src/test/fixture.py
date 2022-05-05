@@ -19,3 +19,4 @@ def client():
     with app.app_context():
         with app.test_client() as api_client:
             yield api_client
+            
