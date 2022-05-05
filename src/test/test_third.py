@@ -25,3 +25,4 @@ def test_third_data(client):
     response = client.get('/api/v1.0/third')
     data = json.loads(response.text)
     assert data['name'] == 'Anna'
+    
